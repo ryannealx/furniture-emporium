@@ -1,0 +1,62 @@
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+header p {
+  color: black;
+  font-size: larger;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+.article-title {
+  color: rgb(41, 185, 48);
+  margin-left: 208px;
+}
+
+.card {
+  background-color: rgb(0, 0, 0);
+  border: solid black;
+  border-radius: 10px;
+  padding: 10px;
+  padding-top: 1px;
+  margin: 18px;
+  width: 650px;
+}
+
+.button {
+  background-color: rgb(41, 185, 48);
+  font-size: medium;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin-left: 220px;
+  width: 150px;
+  height: 30px;
+}
+
+.price {
+  color: rgb(41, 185, 48);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: larger;
+  margin-left: 240px;
+}
+
+#h2id {
+  margin-left: 230px;
+  color: rgb(41, 185, 48);
+}
+
+s {
+  color: red;
+  font-size: small;
+  margin-left: 10px;
+}

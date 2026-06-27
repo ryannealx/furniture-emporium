@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <title>Furniture Emporium</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <main>
@@ -12,39 +13,45 @@
           bring home.
         </p>
       </header>
-      <article>
-        <h2>Ergonomic Couch</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-          delectus iusto corporis id, quo cumque, perferendis consequatur
-          possimus repellendus quisquam minus sapiente aut suscipit fugit quia
-          debitis totam et incidunt!
-        </p>
-        <p>$20.00 <s>$25.00</s></p>
-        <button>Add to cart</button>
-      </article>
-      <article>
-        <h2>Frozen Table</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-          delectus iusto corporis id, quo cumque, perferendis consequatur
-          possimus repellendus quisquam minus sapiente aut suscipit fugit quia
-          debitis totam et incidunt!
-        </p>
-        <p>$49.95 <s>$60.00</s></p>
-        <button>Add to cart</button>
-      </article>
-      <article>
-        <h2>Handcrafted Chair</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-          delectus iusto corporis id, quo cumque, perferendis consequatur
-          possimus repellendus quisquam minus sapiente aut suscipit fugit quia
-          debitis totam et incidunt!
-        </p>
-        <p>$18.99 <s>$32.99</s></p>
-        <button>Add to cart</button>
-      </article>
+      <div class="card">
+        <article>
+          <h2 class="article-title">Ergonomic Couch</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+            delectus iusto corporis id, quo cumque, perferendis consequatur
+            possimus repellendus quisquam minus sapiente aut suscipit fugit quia
+            debitis totam et incidunt!
+          </p>
+          <p class="price"><em>$20.00</em><s>$25.00</s></p>
+          <button class="button">Add to cart</button>
+        </article>
+      </div>
+      <div class="card">
+        <article>
+          <h2 id="h2id">Frozen Table</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+            delectus iusto corporis id, quo cumque, perferendis consequatur
+            possimus repellendus quisquam minus sapiente aut suscipit fugit quia
+            debitis totam et incidunt!
+          </p>
+          <p class="price"><em>$49.95</em><s>$60.00</s></p>
+          <button class="button">Add to cart</button>
+        </article>
+      </div>
+      <div class="card">
+        <article>
+          <h2 class="article-title">Handcrafted Chair</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+            delectus iusto corporis id, quo cumque, perferendis consequatur
+            possimus repellendus quisquam minus sapiente aut suscipit fugit quia
+            debitis totam et incidunt!
+          </p>
+          <p class="price"><em>$18.99</em><s>$32.99</s></p>
+          <button class="button">Add to cart</button>
+        </article>
+      </div>
     </main>
   </body>
 </html>
